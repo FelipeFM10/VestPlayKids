@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vestplay Kids - Moda Infantil de Qualidade</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <header>
+        <div class="container header-container">
+            <a href="#">
+                <img src="img/logodavp.jpg?text=Vestplay+Kids" alt="Vestplay Kids Logo" class="logo">
+            </a>
+            <div class="hamburger" id="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">Sobre</a></li>
+                    <li><a href="#products">Produtos</a></li>
+                    <li><a href="#testimonials">Depoimentos</a></li>
+                    <li><a href="#contact">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero" id="home">
+        <div class="container hero-content">
+            <h1>Moda Infantil com Amor e Qualidade</h1>
+            <p>Na Vestplay Kids, cada peça é pensada para proporcionar conforto, estilo e diversão para os pequenos. Descubra nossas coleções exclusivas!</p>
+            <a href="#products" class="btn">Ver Coleção</a>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="container">
+            <div class="section-title">
+                <h2>Sobre Nós</h2>
+                <p>Conheça a Vestplay Kids e nossa paixão por moda infantil</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>A Vestplay Kids nasceu do amor pela moda infantil e da vontade de oferecer peças que unissem conforto, qualidade e estilo. Acreditamos que as crianças merecem se vestir com roupas que respeitem sua liberdade de movimento e sua personalidade única.</p>
+                    <p>Nossas coleções são cuidadosamente desenvolvidas com materiais de alta qualidade, pensando no bem-estar dos pequenos e na praticidade para os pais. Cada detalhe é planejado para que as crianças se sintam especiais e confortáveis em seu dia a dia.</p>
+                    <p>Além da qualidade dos produtos, nos preocupamos com o meio ambiente e com práticas comerciais justas. Trabalhamos apenas com fornecedores que compartilham dos nossos valores éticos e de sustentabilidade.</p>
+                    <a href="#contact" class="btn btn-secondary">Fale Conosco</a>
+                </div>
+                <div class="about-image">
+                    <img src="img/foto-vp.png?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Crianças vestindo roupas da Vestplay Kids">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="products" id="products">
+        <div class="container">
+            <div class="section-title">
+                <h2>Nossos Produtos</h2>
+                <p>Descubra nossas coleções exclusivas para meninos e meninas</p>
+            </div>
+            <div class="product-grid" id="product-grid">
+                <!-- Products will be loaded via AJAX -->
+                <div class="loader"></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonials" id="testimonials">
+        <div class="container">
+            <div class="section-title">
+                <h2>O Que Dizem Sobre Nós</h2>
+                <p>Depoimentos de clientes satisfeitos com nossos produtos</p>
+            </div>
+            <div class="testimonial-grid">
+                <div class="testimonial-card">
+                    <p>As roupas da Vestplay Kids são incríveis! Meu filho adora e eu amo a qualidade e o conforto que proporcionam. Sempre recebo elogios quando ele está usando.</p>
+                    <div class="testimonial-author">
+                        <img src="https://randomuser.me/api/portraits/women/32.jpg" alt="Ana Silva">
+                        <div class="author-info">
+                            <h4>Ana Silva</h4>
+                            <p>Mãe do Pedro, 4 anos</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <p>Comprei um conjunto para minha filha e superou todas as expectativas. O tecido é macio, as cores não desbotam e o caimento é perfeito. Já recomendei para todas as minhas amigas!</p>
+                    <div class="testimonial-author">
+                        <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Carla Mendes">
+                        <div class="author-info">
+                            <h4>Carla Mendes</h4>
+                            <p>Mãe da Sofia, 5 anos</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <p>Como avó, sempre busco o melhor para meus netos. Na Vestplay Kids encontrei roupas bonitas, duráveis e com preço justo. O atendimento também é excelente!</p>
+                    <div class="testimonial-author">
+                        <img src="https://randomuser.me/api/portraits/women/68.jpg" alt="Maria Oliveira">
+                        <div class="author-info">
+                            <h4>Maria Oliveira</h4>
+                            <p>Avó do Lucas, 3 anos</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="section-title">
+                <h2>Entre em Contato</h2>
+                <p>Tire suas dúvidas ou faça seu pedido conosco</p>
+            </div>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h3>Informações de Contato</h3>
+                    <p>Estamos sempre disponíveis para atender você e responder todas as suas perguntas sobre nossos produtos.</p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Dilma Virgílina Garcia 134 - sala 02, Joinville, Santa Catarina</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <span>(47) 99100-1322</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>contato@vestplaykids.com.br</span>
+                        </div>
+                    </div>
+                    <h3>Redes Sociais</h3>
+                    <div class="social-links">
+                        <a href="https://www.instagram.com/vestplay.kids/" target="_blank"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <div class="success-message" id="success-message">
+                        Mensagem enviada com sucesso! Entraremos em contato em breve.
+                    </div>
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Nome</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">E-mail</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Telefone</label>
+                            <input type="tel" id="phone" name="phone">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Mensagem</label>
+                            <textarea id="message" name="message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn">Enviar Mensagem</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <a href="https://wa.me/5547991001322?text=Olá,%20gostaria%20de%20saber%20mais%20sobre%20os%20produtos%20Vestplay%20Kids" class="whatsapp-float" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <footer>
+        <div class="container">
+            <img src="img/logodavp.jpg?text=Vestplay+Kids" alt="Vestplay Kids Logo" class="footer-logo">
+            <div class="footer-links">
+                <a href="#home">Home</a>
+                <a href="#about">Sobre</a>
+                <a href="#products">Produtos</a>
+                <a href="#testimonials">Depoimentos</a>
+                <a href="#contact">Contato</a>
+                <a href="#">Política de Privacidade</a>
+                <a href="#">Termos de Serviço</a>
+            </div>
+            <p class="copyright">© 2023 Vestplay Kids. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile menu toggle
+        const hamburger = document.getElementById('hamburger');
+        const nav = document.getElementById('nav');
+        
+        hamburger.addEventListener('click', () => {
+            nav.classList.toggle('active');
+        });
+        
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                
+                if (this.getAttribute('href') === '#') return;
+                
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    window.scrollTo({
+                        top: target.offsetTop - 80,
+                        behavior: 'smooth'
+                    });
+                    
+                    // Close mobile menu if open
+                    nav.classList.remove('active');
+                }
+            });
+        });
+        
+        // AJAX product loading
+        document.addEventListener('DOMContentLoaded', function() {
+            const productGrid = document.getElementById('product-grid');
+            const loader = document.createElement('div');
+            loader.className = 'loader';
+            productGrid.innerHTML = '';
+            productGrid.appendChild(loader);
+            
+            // Simulate AJAX call with setTimeout
+            setTimeout(function() {
+                // In a real scenario, this would be a fetch or XMLHttpRequest to your backend
+                const products = [
+                    {
+                        id: 1,
+                        name: 'Conjunto Verão',
+                        description: 'Conjunto leve e confortável para os dias quentes',
+                        price: 'R$ 89,90',
+                        image: 'img/verao.png?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80'
+                    },
+                    {
+                        id: 2,
+                        name: 'Vestido Florido',
+                        description: 'Vestido delicado com estampa de flores',
+                        price: 'R$ 79,90',
+                        image: 'img/vestido.png?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80'
+                    },
+                    {
+                        id: 3,
+                        name: 'Moletom Esportivo',
+                        description: 'Conforto e estilo para brincar à vontade',
+                        price: 'R$ 99,90',
+                        image: 'img/esportivo.png?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80'
+                    },
+                    {
+                        id: 4,
+                        name: 'Conjunto Inverno',
+                        description: 'Aquece e protege nos dias mais frios',
+                        price: 'R$ 119,90',
+                        image: 'img/inverno.png?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80'
+                    }
+                ];
+                
+                productGrid.innerHTML = '';
+                
+                products.forEach(product => {
+                    const productCard = document.createElement('div');
+                    productCard.className = 'product-card';
+                    productCard.innerHTML = `
+                        <div class="product-image">
+                            <img src="${product.image}" alt="${product.name}">
+                        </div>
+                        <div class="product-info">
+                            <h3>${product.name}</h3>
+                            <p>${product.description}</p>
+                            <span class="price">${product.price}</span>
+                        </div>
+                    `;
+                    productGrid.appendChild(productCard);
+                });
+            }, 1500);
+        });
+        
+        // Form submission with AJAX
+        const contactForm = document.getElementById('contactForm');
+        const successMessage = document.getElementById('success-message');
+        
+        contactForm.addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            // Show loading state
+            const submitButton = contactForm.querySelector('button[type="submit"]');
+            const originalButtonText = submitButton.textContent;
+            submitButton.disabled = true;
+            submitButton.textContent = 'Enviando...';
+            
+            // Simulate AJAX submission
+            setTimeout(function() {
+                // In a real scenario, this would be a fetch or XMLHttpRequest to your backend
+                console.log('Form data:', {
+                    name: contactForm.name.value,
+                    email: contactForm.email.value,
+                    phone: contactForm.phone.value,
+                    message: contactForm.message.value
+                });
+                
+                // Show success message
+                successMessage.style.display = 'block';
+                contactForm.reset();
+                
+                // Reset button
+                submitButton.disabled = false;
+                submitButton.textContent = originalButtonText;
+                
+                // Hide success message after 5 seconds
+                setTimeout(function() {
+                    successMessage.style.display = 'none';
+                }, 5000);
+            }, 1500);
+        });
+    </script>
+</body>
+</html>
